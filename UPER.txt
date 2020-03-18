@@ -1,0 +1,30 @@
+return max profit that can be made froma 
+single buy and sell in the list
+
+max var set to 0 global
+
+nested loop check if j - i > max
+
+HAVE TO CHECK AGAINST ALL buys sales
+
+then max = j-i
+
+return max global
+
+[1, 100, 10, 120]
+
+if lower than max
+have a neg list store values in there
+
+Recipe batches:
+
+if not equal keys then return 0
+
+tag the amounts that can be made with a []
+
+loop through both and divideFl value2 // value1
+
+push those into []
+
+return min(arr)
+
