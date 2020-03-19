@@ -3,8 +3,15 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+  initial = ['rock', 'paper', 'scissors']
+  ret_list = []
+  
 
+  for i in range(len(initial) - 1):
+    for j in range(len(initial) - 1):
+      ret_list.append([i])
+
+  
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
